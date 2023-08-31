@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 const Header = () => {
   return (
-    <header className="root">
+    <header className="header">
       <div className="header__nav-wrapper">
         <nav className="header__nav">
           <div className="logo">
