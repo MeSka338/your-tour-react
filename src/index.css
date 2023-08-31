@@ -8,10 +8,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background: var(--Beige100);
-}
-
 /* COLORS */
 :root {
   --Black: #1b1f2b;
