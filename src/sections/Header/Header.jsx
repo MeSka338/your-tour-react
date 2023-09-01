@@ -1,14 +1,35 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Header.css";
+
 const Header = () => {
+  const [isFixed, setIsFixed] = useState(false);
+
+  const FixingNav = () => {
+    if (window.scrollY >= 450) {
+      setIsFixed(true);
+    } else {
+      setIsFixed(false);
+    }
+  };
+
+  window.addEventListener("scroll", FixingNav);
+
   return (
     <header className="header">
-      <div className="header__nav-wrapper">
+      <div
+        className={
+          isFixed ? "header__nav-wrapper fixed" : " header__nav-wrapper"
+        }
+      >
         <nav className="header__nav">
           <div className="logo">
             <a href="#" className="logo__href">
               <img
-                src="/img/header/YourTour-white.svg"
+                src={
+                  isFixed
+                    ? "/img/header/YourTour-black.svg"
+                    : "/img/header/YourTour-white.svg"
+                }
                 alt="main_logo"
                 className="logo__img"
               />
