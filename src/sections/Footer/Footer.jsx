@@ -18,7 +18,7 @@ const Footer = () => {
           <p className="footer__subtitle p-normal">
             Напиши на почту и узнай подробности
             <br />
-            на
+            на{" "}
             <a href="#" className="link">
               yourtour@gmail.com
             </a>
