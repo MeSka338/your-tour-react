@@ -1,4 +1,5 @@
 import React from "react";
+import Arr from "../../utils/array";
 import "./TravelPhoto.css";
 
 const TravelPhoto = () => {
@@ -10,75 +11,40 @@ const TravelPhoto = () => {
         кадров
       </p>
       <div className="gallery">
-        <img
-          src="/img/travel-photo/travel photo-1.jpg"
-          alt=""
-          className="photo grid-1"
-        />
-        <img
-          src="/img/travel-photo/travel photo-2.jpg"
-          alt=""
-          className="photo grid-1"
-        />
-        <img
-          src="/img/travel-photo/travel photo-3.jpg"
-          alt=""
-          className="photo grid-1"
-        />
-        <img
-          src="/img/travel-photo/travel photo-4.jpg"
-          alt=""
-          className="photo grid-1"
-        />
+        {Arr(4, 1).map((item, key) => {
+          return (
+            <img
+              src={`/img/travel-photo/travel photo-${item}.jpg`}
+              alt={`${item}`}
+              key={key}
+              className="photo grid-1"
+            />
+          );
+        })}
       </div>
       <div className="gallery grid-big">
-        <img
-          src="/img/travel-photo/travel photo-5.jpg"
-          alt=""
-          className="photo-small"
-        />
-        <img
-          src="/img/travel-photo/travel photo-6.jpg"
-          alt=""
-          className="photo-small"
-        />
-        <img
-          src="/img/travel-photo/travel photo-7.jpg"
-          alt=""
-          className="photo-small"
-        />
-        <img
-          src="/img/travel-photo/travel photo-8.jpg"
-          alt=""
-          className="photo-small"
-        />
-        <img
-          src="/img/travel-photo/travel photo-13.jpg"
-          alt=""
-          className="photo-small"
-        />
+        {Arr(5, 5).map((item, key) => {
+          return (
+            <img
+              src={`/img/travel-photo/travel photo-${item}.jpg`}
+              alt={`${item}`}
+              key={key}
+              className="photo grid-1"
+            />
+          );
+        })}
       </div>
       <div className="gallery">
-        <img
-          src="/img/travel-photo/travel photo-9.jpg"
-          alt=""
-          className="photo grid-3"
-        />
-        <img
-          src="/img/travel-photo/travel photo-10.jpg"
-          alt=""
-          className="photo grid-3"
-        />
-        <img
-          src="/img/travel-photo/travel photo-11.jpg"
-          alt=""
-          className="photo grid-3"
-        />
-        <img
-          src="/img/travel-photo/travel photo-12.jpg"
-          alt=""
-          className="photo grid-3"
-        />
+        {Arr(4, 9).map((item, key) => {
+          return (
+            <img
+              src={`/img/travel-photo/travel photo-${item}.jpg`}
+              alt={`${item}`}
+              key={key}
+              className="photo grid-1"
+            />
+          );
+        })}
       </div>
     </section>
   );
