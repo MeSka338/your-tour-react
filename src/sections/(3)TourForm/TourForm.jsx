@@ -32,7 +32,7 @@ const TourForm = () => {
                 name="path"
                 id="paht"
               >
-                <option value="" disabled selected hidden>
+                <option value="DEFAULT" disabled selected hidden>
                   Куда хотите ехать
                 </option>
                 <option value="1">Европа</option>
@@ -92,25 +92,25 @@ const TourForm = () => {
               id="yes"
             />
             <div className="fake-radio-container">
-              <label for="yes" className="fake-radio"></label>
-              <label className="radio-label p-normal" for="yes">
+              <label htmlFor="yes" className="fake-radio"></label>
+              <label className="radio-label p-normal" htmlFor="yes">
                 Да
               </label>
             </div>
             <input className="radio" type="radio" name="ansuer" id="no" />
             <div className="fake-radio-container">
-              <label for="no" className="fake-radio"></label>
-              <label className="radio-label p-normal" for="no">
+              <label htmlFor="no" className="fake-radio"></label>
+              <label className="radio-label p-normal" htmlFor="no">
                 Нет
               </label>
             </div>
           </div>
           <div className="license-agreemt">
             <input type="checkbox" id="check" name="licen" />
-            <label className="checkbox-label" for="check"></label>
+            <label className="checkbox-label" htmlFor="check"></label>
             <p className="checkbox-title p-small">
               Нажимая кнопку, я принимаю условия
-              <a href="#" className="link">
+              <a href="/" className="link">
                 Лицензионного договора
               </a>
             </p>
