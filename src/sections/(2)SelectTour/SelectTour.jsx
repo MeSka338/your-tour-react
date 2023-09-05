@@ -30,7 +30,9 @@ const SelectTour = () => {
               key={key}
               onClick={() => Change(key)}
             >
-              <a className="select-tour-menu__link">{item}</a>
+              <a href={"/"} className="select-tour-menu__link">
+                {item}
+              </a>
             </li>
           );
         })}
@@ -51,7 +53,7 @@ const SelectTour = () => {
                   <p className="card__subtitle p-small">от 80 000 руб</p>
                 </div>
 
-                <a href="#" className="secondary-btn">
+                <a href="/" className="secondary-btn">
                   <p className="secondary-btn__title p-big">Подробнее</p>
                   <img
                     className="secondary-btn__icon"
