@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-.active > p {
+.active > a {
   text-decoration: underline;
   text-underline-offset: 10px;
   text-decoration-thickness: 2px;
@@ -33,8 +33,6 @@
 .select-tour-menu__link:hover {
   text-underline-offset: 10px;
   text-decoration-thickness: 2px;
-
-  text-decoration: underline;
 }
 .select-tour__options {
   list-style: none;

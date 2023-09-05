@@ -30,7 +30,9 @@ const SelectTour = () => {
               key={key}
               onClick={() => Change(key)}
             >
-              <p className="select-tour-menu__link">{item}</p>
+              <a href={"/"} className="select-tour-menu__link">
+                {item}
+              </a>
             </li>
           );
         })}
