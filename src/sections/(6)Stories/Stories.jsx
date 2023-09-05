@@ -33,7 +33,7 @@ const Stories = () => {
               </li>
               <li className="subtitle-list__item p-normal">красивый город</li>
             </ul>
-            <a href="#" className="secondary-btn stories__btn">
+            <a href="/" className="secondary-btn stories__btn">
               <p className="secondary-btn__title p-big">Подробнее</p>
               <img
                 className="secondary-btn__icon"
@@ -42,13 +42,13 @@ const Stories = () => {
               />
             </a>
             <div className="socials card__socials">
-              <a href="#" className="socials__item p-normal">
+              <a href="/" className="socials__item p-normal">
                 instagram
               </a>
-              <a href="#" className="socials__item p-normal">
+              <a href="/" className="socials__item p-normal">
                 facebook
               </a>
-              <a href="#" className="socials__item p-normal">
+              <a href="/" className="socials__item p-normal">
                 YouTube
               </a>
             </div>
@@ -73,7 +73,7 @@ const Stories = () => {
               в формировании новых предложений.
             </p>
 
-            <a href="#" className="secondary-btn stories__btn">
+            <a href="/" className="secondary-btn stories__btn">
               <p className="secondary-btn__title p-big">Подробнее</p>
               <img
                 className="secondary-btn__icon"
@@ -82,10 +82,10 @@ const Stories = () => {
               />
             </a>
             <div className="socials card__socials">
-              <a href="#" className="socials__item p-normal">
+              <a href="/" className="socials__item p-normal">
                 instagram
               </a>
-              <a href="#" className="socials__item p-normal">
+              <a href="/" className="socials__item p-normal">
                 ВКонтакте
               </a>
             </div>
@@ -110,7 +110,7 @@ const Stories = () => {
               в формировании новых предложений.
             </p>
 
-            <a href="#" className="secondary-btn stories__btn">
+            <a href="/" className="secondary-btn stories__btn">
               <p className="secondary-btn__title p-big">Подробнее</p>
               <img
                 className="secondary-btn__icon"
@@ -119,13 +119,13 @@ const Stories = () => {
               />
             </a>
             <div className="socials card__socials">
-              <a href="#" className="socials__item p-normal">
+              <a href="/" className="socials__item p-normal">
                 instagram
               </a>
-              <a href="#" className="socials__item p-normal">
+              <a href="/" className="socials__item p-normal">
                 facebook
               </a>
-              <a href="#" className="socials__item p-normal">
+              <a href="/" className="socials__item p-normal">
                 ВКонтакте
               </a>
             </div>

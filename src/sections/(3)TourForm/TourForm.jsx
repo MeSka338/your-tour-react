@@ -32,7 +32,7 @@ const TourForm = () => {
                 name="path"
                 id="paht"
               >
-                <option value="DEFAULT" disabled selected hidden>
+                <option value="DEFAULT" disabled hidden>
                   Куда хотите ехать
                 </option>
                 <option value="1">Европа</option>

@@ -23,7 +23,7 @@ const Header = () => {
       >
         <nav className="header__nav">
           <div className="logo">
-            <a href="#" className="logo__href">
+            <a href="/" className="logo__href">
               <img
                 src={
                   isFixed
@@ -37,22 +37,22 @@ const Header = () => {
           </div>
           <ul className="menu">
             <li className="menu__item p-normal">
-              <a href="" className="menu__link">
+              <a href="/" className="menu__link">
                 Туры
               </a>
             </li>
             <li className="menu__item p-normal">
-              <a href="" className="menu__link">
+              <a href="/" className="menu__link">
                 Создать тур
               </a>
             </li>
             <li className="menu__item p-normal">
-              <a href="" className="menu__link">
+              <a href="/" className="menu__link">
                 Отзывы
               </a>
             </li>
             <li className="menu__item p-normal">
-              <a href="" className="menu__link">
+              <a href="/" className="menu__link">
                 Истории
               </a>
             </li>
@@ -68,7 +68,7 @@ const Header = () => {
           Идейные соображения высшего порядка, a также рамки и место обучения
           кадров
         </p>
-        <a href="#" className="main-btn p-small" id="herobtn">
+        <a href="/" className="main-btn p-small" id="herobtn">
           Найти тур
         </a>
       </div>

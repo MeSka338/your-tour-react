@@ -19,7 +19,7 @@ const Footer = () => {
             Напиши на почту и узнай подробности
             <br />
             на{" "}
-            <a href="#" className="link">
+            <a href="/" className="link">
               yourtour@gmail.com
             </a>
           </p>
@@ -35,7 +35,7 @@ const Footer = () => {
                 src="/img/footer/instagram-icon.png"
                 alt=""
               />
-              <a href="#" className="socials__title p-normal link">
+              <a href="/" className="socials__title p-normal link">
                 instagram
               </a>
             </div>
@@ -46,7 +46,7 @@ const Footer = () => {
                 src="/img/footer/facebook-icon.png"
                 alt=""
               />
-              <a href="#" className="socials__title p-normal link">
+              <a href="/" className="socials__title p-normal link">
                 facebook
               </a>
             </div>
@@ -57,7 +57,7 @@ const Footer = () => {
                 src="/img/footer/vk-icon.png"
                 alt=""
               />
-              <a href="#" className="socials__title p-normal link">
+              <a href="/" className="socials__title p-normal link">
                 vkontakte
               </a>
             </div>
